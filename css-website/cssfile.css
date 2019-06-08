@@ -1,0 +1,61 @@
+.red{
+	color: blue;
+}
+.blue{
+	color: orange;
+} 
+#first-section{
+	background-color: pink;
+	width: 200px;
+	padding-top: 0px;
+	margin-left: 50px;
+}
+#second-section{
+	background-color: #8AB4F7;
+	width: 200px;
+	height: 200px;
+	margin-left: 50px;
+	padding: 10px;
+}
+#redSq{
+	background-color: red;
+	border: 10px black dotted;
+}
+#blueSq{
+	background-color: blue;
+}
+#greenSq{
+	background-color: green;
+}
+.square{
+	width: 100px;
+	height: 100px;
+	margin: 10px;
+	float: left;
+	border-radius: 50%;
+}
+.justified{
+	text-align: justify;
+}
+body{
+	margin: 0px;
+	padding: 0px;
+}
+p{
+	text-align: right;
+	margin: 0px;
+	padding: 0px;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+}
+a:click{
+	text-decoration-color: red;
+}
+a:visited{
+	color: red;
+}
+
