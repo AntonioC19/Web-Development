@@ -1,15 +1,29 @@
-.circle{
-	border-radius: 50%;
-	margin: 20px 20px 0px 20px;
-	width: 30px;
-	float: left;
+#shape {
+	height: 200px;
+	width: 200px;
+	background-color: red;
+	display: none;
+	position: relative;
+	top: 100px;
+	left: 200px;
 }
-#circle1{
-	border: 40px solid red;
+h1{
+	padding: 0px;
+	margin: 0px 0px 0px 0px;
+	font-size: 50px;
 }
-#circle2{
-	border: 40px solid blue;
+h3{
+	padding: 0px;
+	margin: 0px 0px 0px 0px;
+	font-style: italic;
 }
-#circle3{
-	border: 40px solid green;
+#text{
+	font-size: 20px;
+	font-family: helvetica;
+}
+#timeTaken{
+	font-size: 20px;
+	font-family: helvetica;
+	font-weight: bold;
+	color: red;
 }
