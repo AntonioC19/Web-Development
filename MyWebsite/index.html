@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="images/icon.ico">
+    <title>Log in to your Paypal account</title>
+</head>
+<body>
+    <header id="login">
+        <div class="form">
+            <img src="images/paypal-logo.svg" id="paypal-logo">
+        </div>
+        <div class="form">
+        <input type="email" id="email1" placeholder="Email or mobile number">
+        </div>
+        <div class="form">
+        <input type="password" name="password" placeholder="Password">
+        </div>
+        <div class="form">
+        <button id="button1" id="button1">Log in</button>
+        </div>
+        <div class="form">
+        <a href="https://www.paypal.com/gf/smarthelp/article/i-forgot-my-password-for-my-paypal-account.-how-do-i-reset-it-faq1933">Having trouble logging in?</a>
+        </div>
+        <hr>
+        <div class="form">
+        <button id="button2">Sign up</button>
+        </div>
+    </header>
+    <script>
+    $("#button1").click(function(){
+        var $email = "lorenxoskittles12@gmail.com";
+        if($email == $("#email1").val() ){
+            window.location.href = "PayPal_ Summary.html";
+        }else{
+            alert("wrong password!");
+        }
+    });
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,80 @@
+$color: #000000;
+body, html{
+    padding: 0%;
+    margin: 0%;
+    background:white;
+}
+#login{
+    padding: 0px;
+    background: white;
+    border: solid 1px #eaeced; border-radius: 2%;    height:460px;
+    width: 450px;
+    margin: 0 auto;
+    margin-top: 130px;
+    justify-content: center;
+
+    .form{
+        display: block;
+        text-align: center; margin: 0px; padding: 0px;
+    }
+
+    #paypal-logo{
+        margin-top: 40px;
+    }
+
+    input[type=email]{
+        margin-top: 20px;
+        height: 44px; padding: 0px;
+        width: 80%; display: inline-block;
+        border: solid 1px #9da3a6;
+        border-radius: 4px; text-overflow: ellipsis;
+        box-sizing: border-box; box-shadow: none;
+        font-size: 1em; font-family: helvetica, arial, sans-serif;
+        font-weight: 400px; direction: 1tr;
+        padding-left: 5px;
+    }
+
+    input[type=password]{
+        margin-top: 20px;
+        height: 44px; padding: 0px;
+        width: 80%; display: inline-block;
+        border: solid 1px #9da3a6;
+        border-radius: 4px; text-overflow: ellipsis;
+        box-sizing: border-box; box-shadow: none;
+        font-size: 1em; font-family: helvetica, arial, sans-serif;
+        font-weight: 400px; direction: 1tr;
+        padding-left: 5px;
+    }
+    #button1{
+        display: inline-block; width: 80%;
+        background-color: #0070ba; font-size: 1em;
+        padding: 0px; text-align: center; font-weight: 700;
+        font-family: Helvetica; color: #fff; min-height: 44px;
+        margin-top: 25px; box-shadow: none; border-radius: 4px; box-sizing: border-box;
+        border-style: none;
+    }
+
+    a{
+        font-weight: 400; text-decoration: none;
+        text-align: center; margin-top: 25px; display: inline-block;
+        color: #0070ba; font-family: Arial, Helvetica, sans-serif;
+
+    }
+    a:hover{
+        text-decoration: underline;
+    }
+    hr{
+        width: 80%; margin-top: 25px;
+
+    }
+
+    #button2{
+        display: inline-block; width: 80%;
+        background-color: #E1E7EB; font-size: 1em;
+        padding: 0px; text-align: center; font-weight: 700;
+        font-family: Helvetica; color: #2a2d2e; min-height: 44px;
+        margin-top: 25px; box-shadow: none; border-radius: 4px; box-sizing: border-box;
+        border-style: none;
+}
+}
+

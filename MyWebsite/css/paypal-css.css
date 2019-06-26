@@ -1,0 +1,35 @@
+body, html {
+  padding: 0px;
+  margin: 0px;
+  background: white;
+}
+
+#menu {
+  background-color: #016EB9;
+  height: 80px;
+  width: 100%;
+}
+
+#menu #logo {
+  width: 40px;
+  height: 40px;
+  float: left;
+  margin-top: 20px;
+  margin-left: 20%;
+}
+
+#menu #menu-item {
+  text-decoration: none;
+  float: left;
+  font-family: 'Roboto Slab', serif;
+  text-align: left;
+  color: #fff;
+  font-size: 0.89rem;
+  margin-top: 31px;
+  margin-left: 25px;
+}
+
+#menu #menu-item:hover {
+  text-decoration: underline;
+}
+/*# sourceMappingURL=paypal-css.css.map */
