@@ -1,0 +1,70 @@
+@-ms-viewport{
+    width: device-width;
+  }
+body, html{
+      margin: 0px; padding: 0px; background-color: #fff;
+  }
+  
+.header{
+      background-color: #008b8b; width: 100%;
+      margin: 0px; padding: 0px; height: 84px;
+      h1{
+          color: rgb(255, 255, 255); 
+          float: left; margin-top: 4px; font-size: 60px;
+           padding: 0px; font-family: Georgia, 'Times New Roman', Times, serif;
+           text-shadow: 2px 2px black;
+           
+      }
+      .h1-margin{
+        margin-left: 20%
+      }
+      #menu-start-item{
+        color:#fff; float: left; margin-top: 20px;
+        font-size: 20px; font-weight: bold;
+        font-family: helvetica, arial; border: 1px solid #fff;
+        border-radius: 4px; padding: 10px;
+      }
+      .menu1{
+        margin-left: 150px;
+      }
+      .menu{
+        color: #fff; float: left; margin-top: 20px;
+        margin-left: 40px; font-size: 20px; font-weight: bold;
+        font-family: helvetica, arial; border: 1px solid #fff;
+        border-radius: 4px; padding: 10px;
+      }
+      #menu-start-item:hover{
+          background-color: #00acac;
+      }
+      .menu:hover{
+          background-color: #00acac;
+      }
+      @media only screen and (max-width:1049px) {
+          .menu1{
+              margin-left: 20px;
+          }
+          .h1-margin2{
+              margin-left: 16%;
+          }
+    
+        }
+        @media only screen and (max-width:810px) {
+            .menu2{
+                margin-left: 40px;
+            }
+            .h1-margin3{
+                margin-left: 5%; margin-top: 14px;
+                font-size: 40px;
+            }
+
+      }
+      @media screen and (max-width: 550px) {
+          .menu3{
+              margin-left: 3px;
+          }
+          .h1-margin4{
+              margin-left: 2%; margin-top: 23px;
+              font-size: 30px;
+          }
+      }
+}
